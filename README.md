@@ -8,6 +8,7 @@ A Chrome extension that allows you to easily create timers from anywhere in your
 ## Installation
 1. Clone the repository
 2. Open your browser
-3. Turn on developer mode
-4. Choose load unpacked
-5. Select the folder
+3. Go to extensions
+4. Turn on developer mode
+5. Choose load unpacked
+6. Select the folder
