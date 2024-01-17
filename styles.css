@@ -1,0 +1,121 @@
+/* Styling for the body */
+body {
+    text-align: center;
+    background-color: #EEEEEE;
+    width: 120px;
+    margin: 0;
+    padding: 0;
+}
+  
+/* Custom styling for the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #EEEEEE;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #8888884f;
+    border-radius: 20px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+  
+/* Styling for the title div */
+.title_div {
+    background-color: #E8D5C4;
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+  
+/* Styling for the paragraphs */
+p1, p2, p3 {
+    font-family: sans-serif;
+}
+  
+p1 {
+    font-size: 18px;
+    color: #1b1b23;
+}
+  
+p2 {
+    font-size: 12px;
+    color: #EEEEEE;
+}
+  
+p3 {
+    font-size: 12px;
+    color: #3a3a3dbf;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    background-color: #EEEEEE;
+    width: 90px;
+}
+  
+/* Styling for default buttons */
+.default_button {
+    font-size: 12px;
+    color: #1b1b23;
+    margin: 2px;
+    border: 1.2px solid #1b1b23;
+    border-radius: 20px;
+    background-color: #E8D5C4;
+    transition: all ease-in-out 0.2s;
+    width: 90px;
+}
+  
+.default_button:hover {
+    cursor: pointer;
+    background-color: #FFF1DC;
+}
+  
+/* Styling for circular buttons */
+.circular_button {
+    font-size: 12px;
+    color: #1b1b23;
+    margin: 1px 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1.275px solid #1b1b23;
+    border-radius: 80%;
+    width: 48px;
+    height: 48px;
+    background-color: #E8D5C4;
+    transition: all ease-in-out 0.2s;
+}
+  
+.circular_button:hover {
+    cursor: pointer;
+    background-color: #FFF1DC;
+}
+  
+/* Styling for collapsible timer and option buttons */
+.timer_collapsible, .option_collapsible {
+    cursor: pointer;
+    font-size: 12px;
+    color: #3a3a3dbf;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    background-color: #EEEEEE;
+    transition: all ease-in-out 0.2s;
+    border: none;
+}
+  
+.timer_collapsible:hover, .option_collapsible:hover {
+    color: #1b1b23;
+    transition: all ease-in-out 0.2s;
+}
+    
+/* Hidden sections for timers and options */
+.timers, .options {
+    display: none;
+    overflow: hidden;
+}

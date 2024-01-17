@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <!-- Title section -->
+    <div class="title_div">
+      <p1>Timer</p1>
+    </div>
+
+    <!-- Recommended timer buttons -->
+    <p3>RECOMMENDED</p3>
+    <div>
+      <button class="circular_button" id="recmin1" value="1">1min</button>
+      <button class="circular_button" id="recmin5" value="5">5min</button>
+      <button class="circular_button" id="recmin10" value="10">10min</button>
+      <button class="circular_button" id="recmin30" value="30">30min</button>
+    </div>
+
+    <!-- Collapsible section for all timers -->
+    <button type="button" class="timer_collapsible">ALL TIMERS</button>
+    <div class="timers">
+      <button class="default_button" id="min1" value="1">1 minute</button>
+      <button class="default_button" id="min2" value="2">2 minutes</button>
+      <button class="default_button" id="min3" value="3">3 minutes</button>
+      <button class="default_button" id="min4" value="4">4 minutes</button>
+      <button class="default_button" id="min5" value="5">5 minutes</button>
+      <button class="default_button" id="min10" value="10">10 minutes</button>
+      <button class="default_button" id="min15" value="15">15 minutes</button>
+      <button class="default_button" id="min30" value="30">30 minutes</button>
+      <button class="default_button" id="min60" value="60">60 minutes</button>
+      <button class="default_button" id="min120" value="120">120 minutes</button>
+    </div>
+
+    <!-- Collapsible section for additional options -->
+    <button type="button" class="option_collapsible">OPTIONS</button>
+    <div class="options">
+      <button class="default_button" id="cancelAlarm">Reset</button>
+    </div>
+    
+    <script src="popup.js"></script>
+  </body>
+</html>
