@@ -6,9 +6,12 @@ A Chrome extension that allows you to easily create timers from anywhere in your
 <img src="screenshots/open.png" alt="Open" width="100"/>
 
 ## Installation
-1. Clone the repository
-2. Open your browser
-3. Go to extensions
-4. Turn on developer mode
-5. Choose load unpacked
-6. Select the folder
+1. Run `git clone https://github.com/PouyaMT/timer-extension.git` to clone the repository.
+   
+2. Go to your browser's extension manager.
+
+3. Make sure developer mode is turned on.
+   
+5. Choose to load the file unpacked.
+
+6. Select and open the folder.
